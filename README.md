@@ -1,9 +1,18 @@
 # FCS-Website
-Website in development for Folsom Chinese School Organization
+Website in development for the Folsom Chinese School Organization
 
-6/21 - Migrated Project onto Github
+<b>6/21 - Migrated Project onto Github</b>
 
-Finished Pages: Home, Enroll
-Pages in Progress: Schedule, Classes, About, Contact
+Finished Pages:
+<ul> 
+  <li>Home</li>
+  <li>Enroll</li>
+</ul>
+Pages in Progress: 
+<ul>
+  <li>Schedule</li>
+  <li>Classes</li>
+  <li>About</li>
+  <li>Contact</li>
 
 Features in Progress: Mobile site
