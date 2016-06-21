@@ -14,5 +14,5 @@ Pages in Progress:
   <li>Classes</li>
   <li>About</li>
   <li>Contact</li>
-
+</ul>
 Features in Progress: Mobile site
