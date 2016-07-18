@@ -8,7 +8,7 @@ Finished Pages:
   <li>Home</li>
   <li>Enroll</li>
 </ul>
-Pages in Progress: 
+Pages in Progress (awaiting updated information from clients): 
 <ul>
   <li>Schedule</li>
   <li>Classes</li>
