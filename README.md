@@ -21,8 +21,9 @@ Features in Progress: Mobile site
 Finished:
 <ul>
   <li>FAQ</li>
-<ul>
+</ul>
 Updated:
 <ul>
-  <li>home</li>
+  <li>Home page</li>
+  <li>Many misc styling changes</li>
 </ul>
