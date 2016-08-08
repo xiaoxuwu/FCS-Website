@@ -17,7 +17,8 @@ Pages in Progress (awaiting updated information from clients):
 </ul>
 Features in Progress: Mobile site
 
-<b>8/7 - Many updates</b><br>
+<b>8/7 - Many updates</b>
+
 Finished:
 <ul>
   <li>FAQ</li>
