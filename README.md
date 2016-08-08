@@ -4,11 +4,11 @@ Website in development for the Folsom Chinese School Organization
 <b>6/21 - Migrated Project onto Github</b>
 
 Finished Pages:
-<ul> 
+<ul>
   <li>Home</li>
   <li>Enroll</li>
 </ul>
-Pages in Progress: 
+Pages in Progress (awaiting updated information from clients):
 <ul>
   <li>Schedule</li>
   <li>Classes</li>
@@ -16,3 +16,13 @@ Pages in Progress:
   <li>Contact</li>
 </ul>
 Features in Progress: Mobile site
+
+<b>8/7 - Many updates</b>
+Finished:
+<ul>
+  <li>FAQ</li>
+<ul>
+Updated:
+<ul>
+  <li>home</li>
+</ul>
