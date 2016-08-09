@@ -62,6 +62,7 @@ a.emphasis
 
 a.nav_menu
 {
+	font-family: sans-serif;
 	border-left: 10px solid whitesmoke;
 	color: whitesmoke;
 	text-align: middle;
