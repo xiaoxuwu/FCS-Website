@@ -28,3 +28,15 @@ Updated:
   <li>Home page</li>
   <li>Many misc styling changes</li>
 </ul>
+
+<b>8/8 - Many updates</b>
+
+Finished:
+<ul>
+  <li>About & Contact</li>
+  <li>Mobile Compatibility</li>
+</ul>
+Updated:
+<ul>
+  <li>Many misc styling changes</li>
+</ul>
