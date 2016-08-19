@@ -4,6 +4,7 @@ html
 	margin: 0;
 	padding 0;
 	background-color: hsl(36, 100%, 98%);
+	font-family:sans-serif;
 }
 
 body
