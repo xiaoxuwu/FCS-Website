@@ -21,6 +21,11 @@ img
 	width: 100%;
 }
 
+img.logo-m
+{
+	display:none;
+}
+
 /* list styles */
 ul.emphasis
 {
@@ -218,16 +223,20 @@ div.float
 	padding-top:0;
 }
 
+div.map
+{
+	height:500px;
+}
+
 /* special styles */
 mission
 {
-	margin-left: 3vh;
+	margin-left: 0.6em;
 	font-family: sans-serif;
 	font-size: 1.5em;
 	background-color: gold;
 	border-radius: 12px;
 	border: 10px solid gold;
-	padding: 0.5vh;
 	text-align: center;
 	color: darkslategrey;
 	font-weight: 800;
@@ -306,11 +315,6 @@ table
 		width: 230px;
 	}
 
-	h2
-	{
-		font-size: 1.4em;
-	}
-
 	a.nav_menu
 	{
 		width: 230px;
@@ -365,6 +369,12 @@ table
 	{
 		font-size: 1em;
 	}
+
+	div.map
+	{
+		height:350px;
+	}
+
 }
 
 @media screen and (max-width: 480px) {
@@ -402,14 +412,43 @@ table
 		margin-left: 0;
 	}
 
-	a.selected
-	{
-		width: 100%;
-	}
+	a.selected { width: 100%; }
 
 	h2
 	{
 		font-size: 1.4em;
 		margin: 0;
+	}
+
+	img.logo
+	{
+		display:none;
+	}
+
+	img.logo-m
+	{
+		display:block;
+		margin-bottom:1em;
+		padding-top:0.5em;
+	}
+
+	h2
+	{
+		font-size: 1em;
+	}
+
+	h1
+	{
+		font-size: 1.3em;
+	}
+
+	h3
+	{
+		font-size: 1.2em;
+	}
+
+	div.map
+	{
+		height:250px;
 	}
 }
