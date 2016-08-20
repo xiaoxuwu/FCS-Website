@@ -82,7 +82,7 @@ a.nav_menu
 
 a.selected
 {
-	color: #f16764;
+	color: #2196f3;
 	width: 330px;
 	background-color:whitesmoke;
 }
@@ -138,6 +138,7 @@ p.footer
 
 h3
 {
+	font-family: sans-serif;
 	color:darkslategrey;
 	font-size: 1.5em;
 	margin-left: 2.4em;
@@ -145,12 +146,14 @@ h3
 
 h2
 {
+	font-family: sans-serif;
 	width:auto;
 	font-size: 2em;
 }
 
 h1
 {
+	font-family: sans-serif;
 	margin:1em;
 	color:darkslategrey;
 }
@@ -185,7 +188,7 @@ div.container
 div.left-menu
 {
 	position:fixed;
-	background-color: hsl(1, 94%, 60%);
+	background-color: hsl(199, 98%, 48%);
 	color: whitesmoke;
 	height: 100%;
 	width: 360px;
@@ -290,7 +293,7 @@ table
   transition-timing-function: ease-out;
 }
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
-  color: #f16764;
+  color: #2196f3;
 }
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
