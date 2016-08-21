@@ -73,8 +73,8 @@ a.nav_menu
 	text-align: middle;
 	text-decoration: none;
 	display: inline-block;
-	padding-top:0.4em;
-	height: 1.55em;
+	padding-top:0.6em;
+	height: 1.75em;
 	width: 330px;
 	padding-left: 20px;
 }
@@ -149,6 +149,7 @@ h2
 	font-family: sans-serif;
 	width:auto;
 	font-size: 2em;
+	margin-bottom: 0;
 }
 
 h1
@@ -311,6 +312,18 @@ table
 /*	tablet/smaller screens */
 
 @media screen and (max-width: 992px) {
+	img.logo
+	{
+		display:none;
+	}
+
+	img.logo-m
+	{
+		display:block;
+		background-color: #2B3856;
+		margin-bottom:1em;
+	}
+
 	div.left-menu
 	{
 		width: 260px;
@@ -499,15 +512,4 @@ table
 	table {
 		padding: 0;
 	}
-}
-
-@media screen and (max-height: 360px) {
-	img.logo
-	{
-		display:none;
-	}
-
-	img.logo-m
-	{
-		display:none;
 }
