@@ -307,10 +307,9 @@ table
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-
 /* mobile compatibility */
 /*	tablet/smaller screens */
-@media screen and (max-width: 992px) {
+@media screen and (max-height: 430px) {
 	img.logo
 	{
 		display:none;
@@ -318,10 +317,10 @@ table
 
 	img.logo-m
 	{
-		display:block;
-		margin-bottom:1em;
-	}
-	
+		display:none;
+}
+
+@media screen and (max-width: 992px) {
 	div.left-menu
 	{
 		width: 260px;
