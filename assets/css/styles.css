@@ -309,16 +309,6 @@ table
 }
 /* mobile compatibility */
 /*	tablet/smaller screens */
-@media screen and (max-height: 430px) {
-	img.logo
-	{
-		display:none;
-	}
-
-	img.logo-m
-	{
-		display:none;
-}
 
 @media screen and (max-width: 992px) {
 	div.left-menu
@@ -508,4 +498,15 @@ table
 	table {
 		padding: 0;
 	}
+}
+
+@media screen and (max-height: 430px) {
+	img.logo
+	{
+		display:none;
+	}
+
+	img.logo-m
+	{
+		display:none;
 }
