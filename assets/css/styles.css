@@ -500,7 +500,7 @@ table
 	}
 }
 
-@media screen and (max-height: 430px) {
+@media screen and (max-height: 360px) {
 	img.logo
 	{
 		display:none;
