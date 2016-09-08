@@ -185,7 +185,7 @@ div.container
 div.left-menu
 {
 	position:fixed;
-	background-color: hsla(88, 50%, 53%, 0.76)
+	background-color: hsla(88, 50%, 53%, 0.76);
 	color: whitesmoke;
 	height: 100%;
 	width: 360px;
