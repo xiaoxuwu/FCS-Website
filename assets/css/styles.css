@@ -370,7 +370,6 @@ table
 	{
 		display:block;
 		background-color: hsl(43, 70%, 40%);
-		margin-bottom:1em;
 	}
 
 	div.left-menu
@@ -390,7 +389,6 @@ table
 
 	a.nav_menu
 	{
-		padding-top: 0.5em;
 		height: 1.5em;
 		width: 200px;
 	}
