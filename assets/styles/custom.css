@@ -1,0 +1,44 @@
+/* Classes */
+.img {
+    width: 100%;
+}
+
+.cover {
+    margin-top: 64px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.well {
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+.panel-title {
+    font-size: 200%;
+}
+
+.content-under-cover {
+    margin-top: 6.5em;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+/* Fonts */
+p, a {
+    font-size: 125%;
+}
+
+h3 {
+    margin-top: 0;
+}

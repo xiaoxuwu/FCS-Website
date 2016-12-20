@@ -1,63 +1,111 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Folsom Chinese School</title>
-		<link href="assets/css/styles.css" type="text/css" rel="stylesheet"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-	<div id="container">
-		<div class="left-menu">
-			<img class = "logo" src="assets/images/FCSLogo.png" width="100%" alt="Folsom Chinese School Logo" Title="Folsom Chinese School Logo"/>
-      <img class = "logo-m" src="assets/images/FCSLogo-mobile.png" width="100%" alt="Folsom Chinese School Logo" Title="Folsom Chinese School Logo"/>
-				<!--Navigation Sidebar-->
-				<h2><a class = "nav_menu selected" href="#">Home</a></h2>
-				<h2><a class = "nav_menu hvr-sweep-to-right" href="Registration/index.html" class="hvr-sweep-to-right">Enroll</a></h2>
-				<h2><a class = "nav_menu hvr-sweep-to-right" href="#">Schedule</a></h2>
-				<h2><a class = "nav_menu hvr-sweep-to-right" href="#">Our Classes</a></h2>
-				<h2><a class = "nav_menu hvr-sweep-to-right" href="FAQ/index.html">FAQ</a></h2>
-				<h2><a class = "nav_menu hvr-sweep-to-right" href="About/index.html">About & Contact</a></h2>
-		</div>
-		<div class="right-contents">
-			<img class = "innershadow content" src="assets/images/cover_photo.gif" width="100%" alt="Pictures of School Activities" title="Animated gif of 2013 Chinese New Years Celebration"/>
-        <h1>School Mission:</h1>
-        <table>
-          <tr>
-            <td><mission>Teach</mission></td>
-            <td><p>the Chinese language.</p></td>
-          </tr>
-          <tr>
-            <td><mission>Bridge</mission></td>
-            <td><p>the educational, cultural, and communicational differences between America and China.</p></td>
-          </tr>
-          <tr>
-            <td><mission>Promote</mission></td>
-            <td><p>the fine culture of China.</p></td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td><mission>Infuse</mission></td>
-            <td><p>chinese into the lives of students in practical ways.</p></td>
-          </tr>
-          <tr>
-            <td><mission>Prepare</mission></td>
-            <td><p>students for SAT II Chinese, AP Chinese, college, and beyond.</p></td>
-          </tr>
-          <tr>
-            <td><mission>Provide</mission></td>
-            <td><p>scholarship opportunities to students.</p></td>
-          </tr>
-        </table>
-			</body>
-							<!--insert announcements below-->
-				<div class="footer">
-					<p class="footer"><b>Annoucements:</b><br><br>
-						Folsom Chinese School will open on Friday (08/19/2016) at Vista del Lago Highschool - H Building.
-            Please Refer to <b>Schedule</b>,<b> Our Classes</b>, <a href = "FAQ/index.html"><b>FAQ</b></a>,
-            or <a href = "About/index.html"><b>About & Contact</b></a> on the left if you have additional questions.
-					</p>
-				</div>
-		</div>
-	</div>
+<head>
+    <meta charset="utf-8">
+    <title>Folsom Chinese School</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
+
+    <!-- custom style sheets -->
+    <link rel="stylesheet" href="./assets/styles/custom.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
+    </script>
+<body>
+    <!-- begin nav -->
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Folsom Chinese School</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Enroll</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedules and Classes <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">School Schedule</a></li>
+                    <li><a href="#">Volunteer Schedule</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Classrooms and Teachers</a></li>
+                </ul>
+              </li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- end nav -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="hidden-xs">
+                <img class="img cover" src="./assets/images/HeaderPicture.jpg" alt="Folsom Chinese School Pictures" />
+            </div>
+        </div>
+    </div>
+    <div class="container content-under-cover">
+        <div class="row">
+            <div class="hidden-xs col-sm-3 col-md-2">
+                <img class="img" alt="logo" src="./assets/images/FCSLogo.png">
+            </div>
+            <div class="col-sm-9 col-md-10">
+                <div class="well well-lg">
+                    <h3>Announcements:</h3>
+
+                    <p>Folsom Chinese School has started on Friday (08/19/2016) at Vista del Lago Highschool - H Building.
+                    Please Refer to Schedule and Classes, or About if you have additional questions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <hr>
+            <div class="col-xs-12">
+                <div class="well well-lg">
+                    <h3 class="centered">School Mission</h3>
+                        <div class="row">
+                            <br>
+                            <div class="col-md-2"><p class="centered"><strong>TEACH</strong><br>
+                            the Chinese language.</p></div>
+
+                            <div class="col-md-2"><p class="centered"><strong>BRIDGE</strong><br>
+                            the differences between America and China.</p></div>
+
+                            <div class="col-md-2"><p class="centered"><strong>PROMOTE</strong><br>
+                            the fine culture of China.</p></div>
+
+                            <div class="col-md-2"><p class="centered"><strong>INFUSE</strong><br>
+                            chinese into the lives of students in practical ways.</p></div>
+
+                            <div class="col-md-2"><p class="centered"><strong>PREPARE</strong><br>
+                            students for SAT II Chinese, AP Chinese, college, and beyond.</p></div>
+
+                            <div class="col-md-2"><p class="centered"><strong>GIVE</strong><br>
+                            scholarship opportunities to students.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
