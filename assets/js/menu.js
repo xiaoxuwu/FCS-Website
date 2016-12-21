@@ -23,7 +23,7 @@ document.getElementById("NavMenu").innerHTML =
       '<span class="icon-bar"></span>' +
       '<span class="icon-bar"></span>' +
     '</button>' +
-    '<a class="navbar-brand" href="/index.html">Folsom Chinese School</a>' +
+    '<a class="navbar-brand" href="/">Folsom Chinese School</a>' +
   '</div>' +
 
   '<!-- Collect the nav links, forms, and other content for toggling -->' +
