@@ -77,7 +77,16 @@
     min-height:400px;
 }
 
+.disclaimer-text{
+    font-size:115%;
+}
+
 /* Tag styles */
+
+button{
+    text-decoration:none;
+    color:#444;
+}
 
 footer {
     background-color:#0c84e4;
