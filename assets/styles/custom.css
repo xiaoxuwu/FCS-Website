@@ -42,3 +42,17 @@ p, a {
 h3 {
     margin-top: 0;
 }
+
+#footer{
+    background-color:#0c84e4;
+    padding:1.5em;
+}
+
+.footerText{
+    color:white;
+}
+
+.footerText:hover{
+    color:#b2dbfb;
+    text-decoration:none;
+}
