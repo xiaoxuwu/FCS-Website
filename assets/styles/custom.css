@@ -30,8 +30,8 @@
     margin-top: 6.5em;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: white;
+.static-padding{
+    padding-top: 2em;
 }
 
 #footer {
@@ -48,6 +48,17 @@
     text-decoration:none;
 }
 
+/* Tag styles */
+button{
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer {
+    background-color:#0c84e4;
+    padding:1.5em;
+}
 
 /* Fonts */
 p, a {
