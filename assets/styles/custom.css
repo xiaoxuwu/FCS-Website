@@ -34,16 +34,7 @@
     background-color: white;
 }
 
-/* Fonts */
-p, a {
-    font-size: 125%;
-}
-
-h3 {
-    margin-top: 0;
-}
-
-#footer{
+footer {
     background-color:#0c84e4;
     padding:1.5em;
 }
@@ -55,4 +46,14 @@ h3 {
 .footerText:hover{
     color:#b2dbfb;
     text-decoration:none;
+}
+
+
+/* Fonts */
+p, a {
+    font-size: 125%;
+}
+
+h3 {
+    margin-top: 0;
 }
