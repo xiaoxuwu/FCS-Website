@@ -11,7 +11,7 @@
     margin-bottom: 0;
 }
 
-.well {
+.well-padding {
     background-color: transparent;
     border: none;
     -webkit-box-shadow: none;
@@ -48,12 +48,11 @@
     text-decoration:none;
 }
 
-/* Tag styles */
-button{
-    color: white;
-    padding-top: 2em;
-    padding-bottom: 2em;
+.no-underline:hover{
+    text-decoration:none;
 }
+
+/* Tag styles */
 
 footer {
     background-color:#0c84e4;
