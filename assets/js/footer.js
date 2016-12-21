@@ -13,7 +13,7 @@ $(window).bind("load", function() {
 
 	footerAlign();
 
-	var footerAlign = function() {
+	function footerAlign() {
 		footerHeight = $footer.height();
 		footerTop = ($(window).scrollTop()+$(window).height()-footerHeight)+"px";
 
