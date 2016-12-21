@@ -57,6 +57,24 @@
     text-decoration:none;
 }
 
+.link{
+    font-size:100%;
+}
+
+.more-padding{
+    padding-left:4em;
+    padding-right:4em;
+}
+
+.button-vert-separation{
+    margin-top:1.5em;
+    margin-bottom:2em;
+}
+
+.minheight{
+    min-height:400px;
+}
+
 /* Tag styles */
 
 footer {
@@ -65,10 +83,18 @@ footer {
 }
 
 /* Fonts */
-p, a {
+a {
     font-size: 125%;
+}
+
+p{
+    font-size:140%;
 }
 
 h3 {
     margin-top: 0;
+}
+
+ul {
+    padding-left:1em;
 }
