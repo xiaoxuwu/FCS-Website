@@ -29,21 +29,21 @@ document.getElementById("NavMenu").innerHTML =
   '<!-- Collect the nav links, forms, and other content for toggling -->' +
   '<div class="collapse navbar-collapse" id="navbar-collapse-1">' +
     '<ul class="nav navbar-nav">' +
-      index + '<a href="/index.html">Home <span class="sr-only">(current)</span></a></li>' +
-      enroll + '<a href="/assets/static/enroll.html">Enroll</a></li>' +
+      index + '<a href="/">Home <span class="sr-only">(current)</span></a></li>' +
+      enroll + '<a href="/enroll">Enroll</a></li>' +
     '</ul>' +
 
     '<ul class="nav navbar-nav navbar-right">' +
       dropdown +
           '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedules and Classes <span class="caret"></span></a>' +
           '<ul class="dropdown-menu">' +
-              s_sched + '<a href="/assets/static/school_schedule.html">School Schedule</a></li>' +
-              v_sched + '<a href="/assets/static/volunteer_schedule.html">Volunteer Schedule</a></li>' +
+              s_sched + '<a href="/school_schedule">School Schedule</a></li>' +
+              v_sched + '<a href="/volunteer_schedule">Volunteer Schedule</a></li>' +
               '<li role="separator" class="divider"></li>' +
-              classes + '<a href="/assets/static/classes.html">Classrooms and Teachers</a></li>' +
+              classes + '<a href="/classes">Classrooms and Teachers</a></li>' +
           '</ul>' +
         '</li>' +
-      about + '<a href="/assets/static/about.html">About</a></li>' +
+      about + '<a href="/about">About</a></li>' +
     '</ul>' +
   '</div><!-- /.navbar-collapse -->' +
 '</div><!-- /.container-fluid -->';
