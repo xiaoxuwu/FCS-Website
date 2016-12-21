@@ -1,4 +1,8 @@
 /* Classes */
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: lightblue;
+}
+
 .img {
     width: 100%;
 }
