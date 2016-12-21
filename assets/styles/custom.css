@@ -38,14 +38,6 @@
     padding-top: 2em;
 }
 
-#footer {
-    background-color:#2196f3;
-    padding:1.5em;
-    margin: 0;
-    height: 100px;
-    width: 100%;
-}
-
 .footerText{
     color:white;
 }
@@ -89,8 +81,11 @@ button{
 }
 
 footer {
-    background-color:#0c84e4;
-    padding:1.5em;
+    background-color:#2196f3;
+    margin: 0 !important;
+    padding-top: 1.5em;
+    height: 150px;
+    width: 100%;
 }
 
 /* Fonts */

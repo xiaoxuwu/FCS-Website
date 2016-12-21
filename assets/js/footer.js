@@ -1,8 +1,8 @@
 //FOOTER
 document.getElementById("footer").innerHTML =
-"<div class='col-md-3 col-md-offset-1'><a class='footerText' href='assets/static/about.html'>About</a></div>" +
+"<div class='col-md-2 col-md-offset-2'><a class='footerText' href='assets/static/about.html'>About</a></div>" +
 "<div class='col-md-3'><a class='footerText' href='mailto:folsomchineseschool@gmail.com'>folsomchineseschool@gmail.com</a></div>" +
-"<div class='col-md-4 footerText'>Copyright © Folsom Chinese School, Xiaoxu Wu, Danny Yang</div>";
+"<div class='col-md-3 footerText'>Copyright © Folsom Chinese School</div>";
 
 // Window load event used just in case window height is dependant upon images
 $(window).bind("load", function() {
@@ -19,8 +19,7 @@ $(window).bind("load", function() {
 
 		if ( ($(document.body).height()+footerHeight) < $(window).height()) {
 			$footer.css({
-				position: "absolute"
-			}).animate({
+				position: "absolute",
 				top: footerTop
 			})
 		} else {
