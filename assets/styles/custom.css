@@ -73,6 +73,10 @@
     min-height:400px;
 }
 
+.mapheight{
+    min-height:550px;
+}
+
 .disclaimer-text{
     font-size:120%;
 }
