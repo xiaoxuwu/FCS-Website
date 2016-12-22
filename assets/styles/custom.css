@@ -81,6 +81,11 @@
     font-size:120%;
 }
 
+.no-lr-margin{
+    margin-left:0px;
+    margin-right:0px;
+}
+
 /* Tag styles */
 
 button{
