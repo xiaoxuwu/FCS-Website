@@ -1,18 +1,10 @@
-/* Classes */
+/*
+*   Classes
+*/
+
+/* Misc */
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: lightblue;
-}
-
-.img {
-    width: 100%;
-}
-
-.cover {
-    margin-top: 64px;
-}
-
-.navbar {
-    margin-bottom: 0;
 }
 
 .well-padding {
@@ -22,24 +14,8 @@
     box-shadow: none;
 }
 
-.gsheet {
-    min-height: 800px;
-}
-
 .centered {
     text-align: center;
-}
-
-.panel-title {
-    font-size: 200%;
-}
-
-.content-under-cover {
-    margin-top: 6.5em;
-}
-
-.static-padding{
-    padding-top: 2em;
 }
 
 .footerText{
@@ -55,8 +31,45 @@
     text-decoration:none;
 }
 
+/* size */
+.img {
+    width: 100%;
+}
+
+.gsheet {
+    min-height: 800px;
+}
+
+/* font size */
+.panel-title {
+    font-size: 200%;
+}
+
 .link{
     font-size:100%;
+}
+
+
+.disclaimer-text{
+    font-size:120%;
+}
+
+
+/* padding and margins */
+.cover {
+    margin-top: 64px;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.content-under-cover {
+    margin-top: 6.5em;
+}
+
+.static-padding{
+    padding-top: 2em;
 }
 
 .more-padding{
@@ -77,12 +90,9 @@
     min-height:550px;
 }
 
-.disclaimer-text{
-    font-size:120%;
-}
-
-/* Tag styles */
-
+/*
+*   Button and footer styles
+*/
 button{
     text-decoration:none;
     color:#444;
@@ -96,7 +106,9 @@ footer {
     width: 100%;
 }
 
-/* Fonts */
+/*
+*   Fonts  and other tags
+*/
 a {
     font-size: 125%;
 }

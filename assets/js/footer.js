@@ -5,6 +5,7 @@ document.getElementById("footer").innerHTML =
 "<div class='col-md-3 footerText'>Copyright © Folsom Chinese School</div>";
 
 // Window load event used just in case window height is dependant upon images
+// Align footer at the bottom properly regardless of content above
 $(window).bind("load", function() {
 
 	var footerHeight = 0,

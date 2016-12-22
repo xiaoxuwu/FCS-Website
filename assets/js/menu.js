@@ -1,5 +1,4 @@
-// MANIFEST CONSTANTS
-var index = document.URL.search("index") != -1 ? '<li class="active">' : '<li>';
+// MANIFEST CONSTANTS (active class changes based on current URL)
 var enroll = document.URL.search("enroll") != -1 ? '<li class="active">' : '<li>';
 var s_sched = document.URL.search("school_schedule") != -1 ? '<li class="active">' : '<li>';
 var v_sched = document.URL.search("volunteer_schedule") != -1 ? '<li class="active">' : '<li>';
