@@ -12,6 +12,7 @@
     border: none;
     -webkit-box-shadow: none;
     box-shadow: none;
+    margin-bottom: 1em;
 }
 
 .centered {
@@ -37,7 +38,7 @@
 }
 
 .gsheet {
-    min-height: 800px;
+    min-height: 750px;
 }
 
 /* font size */

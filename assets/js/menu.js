@@ -8,8 +8,7 @@ var dropdown = document.URL.search("school_schedule") != -1 ||
                document.URL.search("volunteer_schedule") != -1 ||
                document.URL.search("classes") != -1
                ? '<li class="dropdown active">' : '<li class="dropdown">';
-if ((index + enroll + s_sched + v_sched + classes + about + dropdown).search("active") == -1)
-    index = '<li class="active">';
+var index = (enroll + s_sched + v_sched + classes + about + dropdown).search("active") == -1 ? '<li class="active">': '<li>';
 
 // MENU
 document.getElementById("NavMenu").innerHTML =
