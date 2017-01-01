@@ -29,9 +29,6 @@ document.getElementById("NavMenu").innerHTML =
     '<ul class="nav navbar-nav">' +
       index + '<a href="/">Home <span class="sr-only">(current)</span></a></li>' +
       enroll + '<a href="/enroll">Enroll</a></li>' +
-    '</ul>' +
-
-    '<ul class="nav navbar-nav navbar-right">' +
       dropdown +
           '<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedules and Classes <span class="caret"></span></a>' +
           '<ul class="dropdown-menu">' +
@@ -43,5 +40,6 @@ document.getElementById("NavMenu").innerHTML =
         '</li>' +
       about + '<a href="/about">About</a></li>' +
     '</ul>' +
+
   '</div><!-- /.navbar-collapse -->' +
 '</div><!-- /.container-fluid -->';
